@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support Shalo</title>
+
+<style>
+body{
+    margin:0;
+    padding:0;
+    background:#f5f7fb;
+    font-family:Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:white;
+    width:350px;
+    padding:35px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 8px 25px rgba(0,0,0,0.1);
+}
+
+.logo{
+    font-size:60px;
+    margin-bottom:15px;
+}
+
+h1{
+    color:#222;
+    margin-bottom:15px;
+}
+
+p{
+    color:#555;
+    line-height:1.7;
+}
+
+.donate-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 30px;
+    background:#0070ba;
+    color:white;
+    text-decoration:none;
+    border-radius:12px;
+    font-size:18px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.donate-btn:hover{
+    background:#005ea6;
+}
+
+.share{
+    margin-top:20px;
+    color:#777;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="logo">❤️</div>
+
+    <h1>Support Shalo</h1>
+
+    <p>
+        Hey,<br><br>
+        I'm hoping you'll consider supporting the good work Shalo does
+        by donating or sharing with others who'd like to help.
+    </p>
+
+    <a class="donate-btn"
+       href="https://www.paypal.com/donate/?hosted_button_id=B69Z3EL5YPG7W"
+       target="_blank">
+       Donate with PayPal
+    </a>
+
+    <div class="share">
+        Thank you for your kindness and support 🙏
+    </div>
+
+</div>
+
+</body>
+</html>
